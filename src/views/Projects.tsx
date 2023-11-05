@@ -90,7 +90,7 @@ const Projects = () => {
             className="flex gap-12 mt-12 flex-wrap justify-center  "
           >
             {filteredProjects().map((item) => (
-            <a href="">
+            <a href="https://expo.dev/artifacts/eas/p3Jm2bzhQJGCtHAvj1QYeW.apk">
               <Card imgSrc={item.img} title={item.title} V={item.V} />
             </a>
               
